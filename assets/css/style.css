@@ -34,7 +34,7 @@ p{margin:0 0 1rem}
   font-weight:800;font-size:.98rem;border:2px solid transparent;cursor:pointer;transition:.18s ease;
   text-align:center;background:transparent;color:inherit;font-family:inherit}
 .btn--primary{background:var(--brand);color:var(--brand-ink)}
-.btn--primary:hover{background:#3f6212;transform:translateY(-2px)}
+.btn--primary:hover{background:#1d4ed8;transform:translateY(-2px)}
 .btn--ghost{border-color:var(--brand);color:var(--brand);background:var(--brand-soft)}
 .btn--ghost:hover{background:var(--brand);color:var(--brand-ink);transform:translateY(-2px)}
 .btn--ghost.is-added{background:var(--brand);color:var(--brand-ink)}
@@ -74,8 +74,8 @@ p{margin:0 0 1rem}
 
 /* ---- hero ---- */
 .hero{position:relative;padding:4.4rem 0 3.4rem;background:
-  radial-gradient(900px 520px at 78% 22%,rgba(101,163,13,.12),transparent 60%),
-  radial-gradient(700px 460px at 8% 78%,rgba(120,133,95,.16),transparent 62%),var(--bg)}
+  radial-gradient(900px 520px at 78% 22%,rgba(59,130,246,.12),transparent 60%),
+  radial-gradient(700px 460px at 8% 78%,rgba(71,95,130,.16),transparent 62%),var(--bg)}
 .hero__grid{display:grid;grid-template-columns:1.02fr 1.1fr;gap:3rem;align-items:center}
 .hero p.lead{font-size:1.12rem;color:var(--ink-2);max-width:52ch}
 .hero__cta{display:flex;gap:.9rem;flex-wrap:wrap;margin:1.6rem 0 1.4rem}
@@ -98,7 +98,7 @@ section{padding:4rem 0}
 @media(max-width:520px){.grid-4{grid-template-columns:1fr}}
 
 .card{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.2s ease;display:flex;flex-direction:column}
-.card:hover{border-color:#c6cdb2;transform:translateY(-4px)}
+.card:hover{border-color:#3a4a63;transform:translateY(-4px)}
 .card__media{position:relative;background:var(--bg-3)}
 .card__tag{position:absolute;top:.9rem;left:.9rem;background:var(--brand);color:var(--brand-ink);font-size:.72rem;font-weight:800;
   letter-spacing:.08em;padding:.34rem .7rem;border-radius:999px;text-transform:uppercase}
@@ -113,7 +113,7 @@ section{padding:4rem 0}
 /* ---- feature tiles ---- */
 .tile{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;overflow:hidden}
 .tile__img{display:block;width:calc(100% + 3rem);aspect-ratio:1200/760;object-fit:cover;margin:-1.5rem -1.5rem .9rem;background:var(--bg-3)}
-.tile__ico{width:46px;height:46px;border-radius:12px;background:rgba(77,124,15,.11);display:grid;place-items:center;margin-bottom:.9rem;color:var(--brand)}
+.tile__ico{width:46px;height:46px;border-radius:12px;background:rgba(59,130,246,.11);display:grid;place-items:center;margin-bottom:.9rem;color:var(--brand)}
 .tile h3{font-size:1.15rem;margin-bottom:.35rem}
 .tile p{margin:0;color:var(--ink-2);font-size:.94rem}
 
@@ -134,7 +134,7 @@ section{padding:4rem 0}
 .buybox h1{margin-bottom:.4rem}
 .stockline{display:inline-flex;align-items:center;gap:.5rem;color:var(--brand);font-weight:700;font-size:.82rem;
   letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px rgba(77,124,15,.16)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px rgba(59,130,246,.16)}
 .priceblock{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);padding:1.3rem;margin:1.2rem 0}
 .priceblock__row{display:flex;align-items:baseline;gap:.8rem;flex-wrap:wrap}
 .price{font-family:var(--head);font-size:2.9rem;color:var(--brand);line-height:1}
