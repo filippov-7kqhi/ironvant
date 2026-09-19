@@ -31,10 +31,7 @@ import argparse, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 API = "https://api.stripe.com/v1"
 
 STORES = {
-    "branchforge": "branchforge.shop",
-    "haulcrest":   "haulcrest.shop",
-    "rootvexx":    "rootvexx.shop",
-    "lawnstride":  "lawnstride.shop",
+    "ironvant": "ironvant.shop",
 }
 
 

@@ -60,7 +60,7 @@ Paste the URLs into `assets/js/site-config.js` in each store repo, or through
 
 ```js
 paymentLinks: {
-  "RV-CREX6M": "https://buy.stripe.com/xxxxxxxx",
+  "IV-CREX6M": "https://buy.stripe.com/xxxxxxxx",
   ...
 }
 ```

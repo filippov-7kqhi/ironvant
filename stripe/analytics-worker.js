@@ -24,16 +24,14 @@
  * Then paste the Worker URL into Settings → Analytics endpoint in the admin.
  */
 
-const ALLOWED = ['https://rootvexx.shop', 'https://ironvant.shop'];
+const ALLOWED = ['https://ironvant.shop'];
 const DAY = 86400e3;
 const LIVE_WINDOW = 5 * 60e3;
 const KEEP = 7 * DAY;
 
 const PRICES = {
-  'RV-CREX6M': 'price_1UEDqOGd7L8SA7377PI8GsP6', 'RV-DP5000': 'price_1UEDqRGd7L8SA737suuMuMKP',
-  'RV-TW1375G': 'price_1UEDqUGd7L8SA7376170E6Ow', 'RV-360SW': 'price_1UEDqXGd7L8SA737YImT8F2a',
-  'IV-CREX6M': 'price_1UEDqAGd7L8SA737DoQq2AMd', 'IV-DP5000': 'price_1UEDqDGd7L8SA7371jBNwWgz',
-  'IV-TW1375G': 'price_1UEDqHGd7L8SA737TmDrcqnJ', 'IV-360SW': 'price_1UEDqKGd7L8SA737omdtI947',
+  'IV-CREX6M': 'price_xxx', 'IV-DP5000': 'price_xxx',
+  'IV-TW1375G': 'price_xxx', 'IV-360SW': 'price_xxx',
 };
 
 export default {
