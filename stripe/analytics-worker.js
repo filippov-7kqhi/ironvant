@@ -30,8 +30,10 @@ const LIVE_WINDOW = 5 * 60e3;
 const KEEP = 7 * DAY;
 
 const PRICES = {
-  'IV-CREX6M': 'price_xxx', 'IV-DP5000': 'price_xxx',
-  'IV-TW1375G': 'price_xxx', 'IV-360SW': 'price_xxx',
+  'IV-CREX6M': 'price_1UJ2XMGd7L8SA737eVLV4NjU',
+  'IV-DP5000': 'price_1UJ2XPGd7L8SA737byBfEsiZ',
+  'IV-TW1375G': 'price_1UJ2XSGd7L8SA737iJsOBXMH',
+  'IV-360SW': 'price_1UJ2XVGd7L8SA737XEWRn8Wc',
 };
 
 export default {
