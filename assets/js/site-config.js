@@ -32,9 +32,9 @@ window.SITE_CONFIG = {
   // One Stripe Payment Link per machine. Blank = that machine routes to an
   // enquiry instead of pretending to take payment.
   paymentLinks: {
-    "IV-CREX6M": "",
-    "IV-DP5000": "",
-    "IV-TW1375G": "",
-    "IV-360SW": ""
+    "IV-CREX6M": "https://buy.stripe.com/14AeVdacK6Iu7EMarq6c00g",
+    "IV-DP5000": "https://buy.stripe.com/9B64gz1Ge2sef7e8ji6c00h",
+    "IV-TW1375G": "https://buy.stripe.com/28E14n4Sq1oa9MUbvu6c00i",
+    "IV-360SW": "https://buy.stripe.com/7sY6oH84C6Iu2ks2YY6c00j"
   }
 };
