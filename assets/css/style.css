@@ -422,3 +422,18 @@ legend{padding:0 .5rem;font-weight:800;font-size:.86rem;letter-spacing:.08em;tex
 /* four trust points wrap to three rows on a phone; the rest are repeated
    in the hero and footer, so the bar keeps only the first there */
 @media(max-width:600px){.topbar span:not(:first-child){display:none}}
+
+/* ---- inner pages: spec-sheet layout ---- */
+.pagehead{background-color:#0c1119;background-image:
+  linear-gradient(rgba(59,130,246,.08) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(59,130,246,.08) 1px,transparent 1px);background-size:34px 34px;
+  border-bottom:1px solid var(--line);padding:3rem 0 2.2rem;margin-bottom:1.6rem}
+.pagehead h1{text-transform:uppercase;letter-spacing:.02em}
+.pagehead h1::before{content:"";display:block;width:48px;height:4px;background:var(--brand);margin-bottom:1rem}
+.policy__toc{border-left:3px solid var(--brand);background:#0c1119}
+.policy__toc ul{counter-reset:toc}
+.policy__toc li{counter-increment:toc}
+.policy__toc a::before{content:counter(toc,decimal-leading-zero) "  ";color:var(--brand);font-weight:700;font-size:.8rem}
+.policy__body h2{border-bottom:1px solid var(--line);padding-bottom:.5rem;text-transform:uppercase;letter-spacing:.02em}
+.grid-2:has(form.form) .tile{border-left:3px solid var(--brand)}
+.summary,.checkout-panel{border-top:3px solid var(--brand)}
